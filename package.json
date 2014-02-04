@@ -1,0 +1,7 @@
+{
+	name : 'Simple-Password-Generator',
+	version : 0.1
+	description : 'A simple password generator for node. Allow you to create random secure passwords on the fly.',
+	keywords : ['password','generator','simple'],
+	license : 'MIT'
+}
