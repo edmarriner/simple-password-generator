@@ -1,7 +1,9 @@
 !(function(){
 	
-	var passwords = require('./simple-password-generator.js');
+	var spg = require('./simple-password-generator.js');
 
-	console.log(passwords.getPassword(5));
+	console.log(spg.generate({
+		length : 3
+	}));
 
 })();
